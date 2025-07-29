@@ -21,7 +21,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="Optivis Labs Logo"
-              className="h-10 w-auto object-contain"
+              className="h-10 w-auto object-contain loading='lazy'"
               style={{ maxWidth: 48 }}
             />
             <span className="text-xl font-bold text-dark tracking-wide">Optivis Labs</span>

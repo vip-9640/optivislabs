@@ -85,7 +85,7 @@ const WhatWeDo = () => {
                 <img
                   src={item.img}
                   alt={item.label}
-                  className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500 loading='lazy'"
                 />
 
                 {/* Dark Overlay */}
