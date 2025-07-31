@@ -35,7 +35,7 @@ const About = () => (
       viewport={{ once: true }}
       className="text-center"
     >
-      <h2 className="text-4xl font-bold text-gray-900 mb-4 relative inline-block">
+      <h2 className="text-4xl font-bold text-dark mb-4 relative inline-block">
         <span className="z-10 relative">About <span className="text-primary">Optivis Labs</span></span>
        
       </h2>

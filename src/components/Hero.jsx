@@ -24,7 +24,7 @@ const Hero = () => (
     <a href="#contact" className="px-8 py-3 bg-primary text-white rounded-full font-semibold shadow hover:bg-dark transition-colors duration-200 mb-8">Get in Touch</a>
     <div className="overflow-hidden w-full max-w-xl">
       <motion.div
-        className="flex whitespace-nowrap text-2xl font-bold text-primary"
+        className="flex whitespace-nowrap text-2xl font-bold text-dark"
         variants={marqueeVariants}
         animate="animate"
         style={{ width: '200%' }}
