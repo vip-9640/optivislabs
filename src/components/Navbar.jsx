@@ -28,7 +28,7 @@ const Navbar = () => {
               style={{ maxWidth: 48 }}
             />
           </div>
-          <span className="text-lg sm:text-2xl font-bold text-white tracking-tight whitespace-nowrap">
+          <span className="text-lg sm:text-2xl font-bold text-dark dark:text-white tracking-tight whitespace-nowrap">
             Optivis Labs
           </span>
         </a>
