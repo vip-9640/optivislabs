@@ -81,7 +81,7 @@ const Portfolio = () => {
           {projects.map(project => (
             <div
               key={project.title}
-              className="bg-gray-100/80 rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center h-80 p-6 cursor-pointer"
+              className="bg-gray-100 dark:bg-gray-800 bg-opacity-90 dark:bg-opacity-90 rounded-xl shadow-md dark:shadow-lg hover:shadow-2xl dark:hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center h-80 p-6 cursor-pointer"
               onClick={() => window.open(project.link, "_blank")}
               tabIndex={0}
               role="button"
@@ -95,8 +95,8 @@ const Portfolio = () => {
                 className="w-10 h-20 object-contain mb-4"
                 loading="lazy"
               />
-              <h3 className="text-xl font-semibold text-dark mb-2 text-center">{project.title}</h3>
-              <p className="text-gray-700 text-center">{project.desc}</p>
+              <h3 className="text-xl font-semibold text-dark dark:text-light mb-2 text-center">{project.title}</h3>
+              <p className="text-gray-700 dark:text-gray-300 text-center">{project.desc}</p>
             </div>
           ))}
         </div>

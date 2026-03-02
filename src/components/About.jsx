@@ -35,12 +35,12 @@ const About = () => (
       viewport={{ once: true }}
       className="text-center"
     >
-      <h2 className="text-4xl font-bold text-dark mb-4 relative inline-block">
+      <h2 className="text-4xl font-bold text-dark dark:text-light mb-4 relative inline-block">
         <span className="z-10 relative">About <span className="text-primary">Optivis Labs</span></span>
        
       </h2>
 
-      <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto mt-6">
+      <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto mt-6">
         Founded in 2022, Optivis Labs exists to empower ideas through design, development, and research. 
         We specialize in building digital solutions that are not only visually stunning but also technically sound and purpose-driven.
       </p>
@@ -53,38 +53,38 @@ const About = () => (
       viewport={{ once: true }}
       className="mt-12"
     >
-      <h3 className="text-xl text-gray-800 font-semibold text-center mb-6">Our Core Values</h3>
+      <h3 className="text-xl text-gray-800 dark:text-gray-200 font-semibold text-center mb-6">Our Core Values</h3>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
         {/* Innovation */}
-        <div className="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition duration-300">
+        <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow dark:shadow-lg hover:shadow-md dark:hover:shadow-xl transition duration-300">
           <div className="flex justify-center text-primary text-3xl mb-4">
             <FaLightbulb />
           </div>
-          <h4 className="text-lg font-semibold mb-2">Innovation</h4>
-          <p className="text-sm text-gray-600">
+          <h4 className="text-lg font-semibold text-dark dark:text-light mb-2">Innovation</h4>
+          <p className="text-sm text-gray-600 dark:text-gray-400">
             We strive to think differently, creatively and apply fresh ideas to every project.
           </p>
         </div>
 
         {/* Integrity */}
-        <div className="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition duration-300">
+        <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow dark:shadow-lg hover:shadow-md dark:hover:shadow-xl transition duration-300">
           <div className="flex justify-center text-primary text-3xl mb-4">
             <FaShieldAlt />
           </div>
-          <h4 className="text-lg font-semibold mb-2">Integrity</h4>
-          <p className="text-sm text-gray-600">
+          <h4 className="text-lg font-semibold text-dark dark:text-light mb-2">Integrity</h4>
+          <p className="text-sm text-gray-600 dark:text-gray-400">
             Honesty and strong moral principles guide how we work and communicate.
           </p>
         </div>
 
         {/* Excellence */}
-        <div className="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition duration-300">
+        <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow dark:shadow-lg hover:shadow-md dark:hover:shadow-xl transition duration-300">
           <div className="flex justify-center text-primary text-3xl mb-4">
             <FaStar />
           </div>
-          <h4 className="text-lg font-semibold mb-2">Excellence</h4>
-          <p className="text-sm text-gray-600">
+          <h4 className="text-lg font-semibold text-dark dark:text-light mb-2">Excellence</h4>
+          <p className="text-sm text-gray-600 dark:text-gray-400">
             We aim to exceed expectations and deliver the highest quality work in all we do.
           </p>
         </div>
